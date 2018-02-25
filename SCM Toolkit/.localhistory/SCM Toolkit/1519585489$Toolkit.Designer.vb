@@ -25,7 +25,6 @@ Partial Class Toolkit
         Me.btnDemandPlanning = New System.Windows.Forms.Button()
         Me.Splitter1 = New System.Windows.Forms.Splitter()
         Me.btnProcurement = New System.Windows.Forms.Button()
-        Me.btnWarehouseManagement = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnDemandPlanning
@@ -58,23 +57,11 @@ Partial Class Toolkit
         Me.btnProcurement.Text = "Procurement and sourcing"
         Me.btnProcurement.UseVisualStyleBackColor = False
         '
-        'btnWarehouseManagement
-        '
-        Me.btnWarehouseManagement.BackColor = System.Drawing.Color.PowderBlue
-        Me.btnWarehouseManagement.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnWarehouseManagement.Location = New System.Drawing.Point(0, 95)
-        Me.btnWarehouseManagement.Name = "btnWarehouseManagement"
-        Me.btnWarehouseManagement.Size = New System.Drawing.Size(142, 50)
-        Me.btnWarehouseManagement.TabIndex = 3
-        Me.btnWarehouseManagement.Text = "Warehouse management"
-        Me.btnWarehouseManagement.UseVisualStyleBackColor = False
-        '
         'Toolkit
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(628, 419)
-        Me.Controls.Add(Me.btnWarehouseManagement)
         Me.Controls.Add(Me.btnProcurement)
         Me.Controls.Add(Me.btnDemandPlanning)
         Me.Controls.Add(Me.Splitter1)
@@ -87,5 +74,4 @@ Partial Class Toolkit
     Friend WithEvents btnDemandPlanning As Button
     Friend WithEvents Splitter1 As Splitter
     Friend WithEvents btnProcurement As Button
-    Friend WithEvents btnWarehouseManagement As Button
 End Class
