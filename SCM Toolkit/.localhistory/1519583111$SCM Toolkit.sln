@@ -5,8 +5,6 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SCM Toolkit", "SCM Toolkit\SCM Toolkit.vbproj", "{703E3F82-B364-468A-9DAE-03EC8A49FBD9}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SCM Toolkit Unit Tests", "SCM Toolkit Unit Tests\SCM Toolkit Unit Tests.vbproj", "{C30B24E6-AB00-4D3D-9E55-0E3333D0BD17}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{703E3F82-B364-468A-9DAE-03EC8A49FBD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{703E3F82-B364-468A-9DAE-03EC8A49FBD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{703E3F82-B364-468A-9DAE-03EC8A49FBD9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C30B24E6-AB00-4D3D-9E55-0E3333D0BD17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C30B24E6-AB00-4D3D-9E55-0E3333D0BD17}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C30B24E6-AB00-4D3D-9E55-0E3333D0BD17}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C30B24E6-AB00-4D3D-9E55-0E3333D0BD17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
