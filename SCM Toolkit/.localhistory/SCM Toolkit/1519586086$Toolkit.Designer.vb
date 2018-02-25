@@ -26,9 +26,6 @@ Partial Class Toolkit
         Me.Splitter1 = New System.Windows.Forms.Splitter()
         Me.btnProcurement = New System.Windows.Forms.Button()
         Me.btnWarehouseManagement = New System.Windows.Forms.Button()
-        Me.btnOrderFulfilment = New System.Windows.Forms.Button()
-        Me.BtnTransportManagement = New System.Windows.Forms.Button()
-        Me.btnLogisticsManage = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnDemandPlanning
@@ -46,7 +43,7 @@ Partial Class Toolkit
         '
         Me.Splitter1.Location = New System.Drawing.Point(0, 0)
         Me.Splitter1.Name = "Splitter1"
-        Me.Splitter1.Size = New System.Drawing.Size(142, 292)
+        Me.Splitter1.Size = New System.Drawing.Size(142, 419)
         Me.Splitter1.TabIndex = 1
         Me.Splitter1.TabStop = False
         '
@@ -72,53 +69,17 @@ Partial Class Toolkit
         Me.btnWarehouseManagement.Text = "Warehouse management"
         Me.btnWarehouseManagement.UseVisualStyleBackColor = False
         '
-        'btnOrderFulfilment
-        '
-        Me.btnOrderFulfilment.BackColor = System.Drawing.Color.PowderBlue
-        Me.btnOrderFulfilment.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnOrderFulfilment.Location = New System.Drawing.Point(0, 144)
-        Me.btnOrderFulfilment.Name = "btnOrderFulfilment"
-        Me.btnOrderFulfilment.Size = New System.Drawing.Size(142, 50)
-        Me.btnOrderFulfilment.TabIndex = 4
-        Me.btnOrderFulfilment.Text = "Order Fulfilment"
-        Me.btnOrderFulfilment.UseVisualStyleBackColor = False
-        '
-        'BtnTransportManagement
-        '
-        Me.BtnTransportManagement.BackColor = System.Drawing.Color.PowderBlue
-        Me.BtnTransportManagement.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnTransportManagement.Location = New System.Drawing.Point(0, 193)
-        Me.BtnTransportManagement.Name = "BtnTransportManagement"
-        Me.BtnTransportManagement.Size = New System.Drawing.Size(142, 50)
-        Me.BtnTransportManagement.TabIndex = 5
-        Me.BtnTransportManagement.Text = "Transportation Management"
-        Me.BtnTransportManagement.UseVisualStyleBackColor = False
-        '
-        'btnLogisticsManage
-        '
-        Me.btnLogisticsManage.BackColor = System.Drawing.Color.PowderBlue
-        Me.btnLogisticsManage.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnLogisticsManage.Location = New System.Drawing.Point(0, 242)
-        Me.btnLogisticsManage.Name = "btnLogisticsManage"
-        Me.btnLogisticsManage.Size = New System.Drawing.Size(142, 50)
-        Me.btnLogisticsManage.TabIndex = 6
-        Me.btnLogisticsManage.Text = "Logistics Management"
-        Me.btnLogisticsManage.UseVisualStyleBackColor = False
-        '
         'Toolkit
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(628, 292)
-        Me.Controls.Add(Me.btnLogisticsManage)
-        Me.Controls.Add(Me.BtnTransportManagement)
-        Me.Controls.Add(Me.btnOrderFulfilment)
+        Me.ClientSize = New System.Drawing.Size(628, 419)
         Me.Controls.Add(Me.btnWarehouseManagement)
         Me.Controls.Add(Me.btnProcurement)
         Me.Controls.Add(Me.btnDemandPlanning)
         Me.Controls.Add(Me.Splitter1)
         Me.Name = "Toolkit"
-        Me.Text = "ASL SCM Toolkit"
+        Me.Text = "Form1"
         Me.ResumeLayout(False)
 
     End Sub
@@ -127,7 +88,4 @@ Partial Class Toolkit
     Friend WithEvents Splitter1 As Splitter
     Friend WithEvents btnProcurement As Button
     Friend WithEvents btnWarehouseManagement As Button
-    Friend WithEvents btnOrderFulfilment As Button
-    Friend WithEvents BtnTransportManagement As Button
-    Friend WithEvents btnLogisticsManage As Button
 End Class

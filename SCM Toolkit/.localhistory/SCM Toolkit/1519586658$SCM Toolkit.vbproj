@@ -78,34 +78,10 @@
     <Compile Include="frmDemandPlanning.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLogisticsManagement.Designer.vb">
-      <DependentUpon>frmLogisticsManagement.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmLogisticsManagement.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmOrderFulfilment.Designer.vb">
-      <DependentUpon>frmOrderFulfilment.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmOrderFulfilment.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="frmProcurementAndSourcing.Designer.vb">
       <DependentUpon>frmProcurementAndSourcing.vb</DependentUpon>
     </Compile>
     <Compile Include="frmProcurementAndSourcing.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmTransportationManagement.Designer.vb">
-      <DependentUpon>frmTransportationManagement.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmTransportationManagement.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmWarehouseManagement.Designer.vb">
-      <DependentUpon>frmWarehouseManagement.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmWarehouseManagement.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Toolkit.vb">

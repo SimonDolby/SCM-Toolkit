@@ -118,7 +118,7 @@ Partial Class Toolkit
         Me.Controls.Add(Me.btnDemandPlanning)
         Me.Controls.Add(Me.Splitter1)
         Me.Name = "Toolkit"
-        Me.Text = "ASL SCM Toolkit"
+        Me.Text = "Form1"
         Me.ResumeLayout(False)
 
     End Sub
