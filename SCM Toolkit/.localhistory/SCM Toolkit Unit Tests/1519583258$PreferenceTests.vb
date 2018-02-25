@@ -1,5 +1,4 @@
 ﻿Imports System.Text
-Imports System.Windows.Forms
 Imports Microsoft.VisualStudio.TestTools.UnitTesting
 
 <TestClass()> Public Class PreferenceTests
@@ -7,14 +6,14 @@ Imports Microsoft.VisualStudio.TestTools.UnitTesting
     <TestMethod()>
     Public Sub SaveSettings()
 
-        My.Settings.DatabaseLocation = "Hello this is literally a test"
+        My.Settings.DatabaseLocationTest = "Hello this is literally a test"
 
     End Sub
 
     <TestMethod()>
     Public Sub LoadSettings()
 
-        MessageBox.Show(My.Settings.DatabaseLocation)
+        Messagebox.show(My.Settings.DatabaseLocationTest)
 
     End Sub
 

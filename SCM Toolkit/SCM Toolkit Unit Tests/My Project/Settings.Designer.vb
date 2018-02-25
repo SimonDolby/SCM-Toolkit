@@ -57,12 +57,12 @@ Namespace My
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("This is a test")>  _
-        Public Property DatabaseLocationTest() As String
+        Public Property DatabaseLocation() As String
             Get
-                Return CType(Me("DatabaseLocationTest"),String)
+                Return CType(Me("DatabaseLocation"),String)
             End Get
             Set
-                Me("DatabaseLocationTest") = value
+                Me("DatabaseLocation") = value
             End Set
         End Property
     End Class
